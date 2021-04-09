@@ -35,14 +35,14 @@ export default {
       SwicthControl(0);
       setTimeout(() => {
         this.disabled("", 1);
-      });
+      }, 5000);
     },
     hover() {
       this.disabled(true, 0);
       SwicthControl(0);
       setTimeout(() => {
         this.disabled("", 1);
-      });
+      }, 5000);
     },
     disabled(bool, num) {
       this.$refs.open.disabled = bool;
